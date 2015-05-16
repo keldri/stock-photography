@@ -484,15 +484,15 @@ body #cdawrap {
   min-width: 100px;
   min-height: 118px;
   position: absolute;
-  right: 20px;
   top: 20px;
   overflow: hidden;
   border: none;
   color: #F44336 !important;
   outline: none;
   z-index: 100;
-  font-size: 8em;
+  font-size: 6em;
   background-color: transparent;
+  left: 76% !important;
 }
 
 /* Menu style */
@@ -602,8 +602,9 @@ body #cdawrap {
 }
 /* line 294, ../components/sass/_navOverlay.scss */
 .search {
-  font-size: 1.5em;
-  padding: 3%;
+  position: absolute;
+  font-size: 1.9em;
+  padding: 9px 10px 10px 16px;
   color: #f0f0f0;
 }
 
