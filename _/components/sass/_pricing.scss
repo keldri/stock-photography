@@ -1,0 +1,53 @@
+.background-image{
+	background:url("_/images/photo-10.jpg");
+}
+.container {
+  margin-bottom: 10%;
+}
+.pricing-box{
+	background-color:#D1D1D1
+}
+.pricing-box .heading{
+	background-color:#EBEBEB;
+	padding:13%;
+	h3{
+		font-size: 24px;
+		line-height: 26.3999996185303px;
+	}
+}
+
+input#product-option-small-five {
+  position: relative;
+  top:21px;
+}
+.pricing-content{
+	padding:0 6%;
+}
+label{
+	padding: 30px;
+}
+span.top,span.bottom{
+  margin-left: 9%;
+}
+span.bottom{
+	color: #C43B80;
+	font-size: .8em;
+}
+
+.background-image{
+	background:url(file:///Users/kateeldridge/Documents/Stocks/_/images/photo-10.jpg);
+}
+.btn {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 19px;
+  background: #ffa3d3;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none; 
+  margin: 10% 25% 15%;
+}
+
+.btn:hover {
+  background: #C43B80;
+  text-decoration: none;
+}
