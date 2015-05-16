@@ -481,21 +481,22 @@ body #cdawrap {
 /* Overlay closing cross */
 /* line 188, ../components/sass/_navOverlay.scss */
 .overlay .overlay-close {
-  width: 80px;
-  height: 80px;
+  min-width: 100px;
+  min-height: 118px;
   position: absolute;
   right: 20px;
   top: 20px;
   overflow: hidden;
   border: none;
-  text-indent: 200%;
-  color: blue;
+  color: #F44336 !important;
   outline: none;
   z-index: 100;
+  font-size: 8em;
+  background-color: transparent;
 }
 
 /* Menu style */
-/* line 203, ../components/sass/_navOverlay.scss */
+/* line 204, ../components/sass/_navOverlay.scss */
 .overlay nav {
   text-align: center;
   position: relative;
@@ -506,7 +507,7 @@ body #cdawrap {
   transform: translateY(-50%);
 }
 
-/* line 213, ../components/sass/_navOverlay.scss */
+/* line 214, ../components/sass/_navOverlay.scss */
 .overlay ul {
   list-style: none;
   padding: 0;
@@ -516,7 +517,7 @@ body #cdawrap {
   position: relative;
 }
 
-/* line 222, ../components/sass/_navOverlay.scss */
+/* line 223, ../components/sass/_navOverlay.scss */
 .overlay ul li {
   display: block;
   height: 20%;
@@ -524,7 +525,7 @@ body #cdawrap {
   min-height: 54px;
 }
 
-/* line 229, ../components/sass/_navOverlay.scss */
+/* line 230, ../components/sass/_navOverlay.scss */
 .overlay ul li a {
   font-weight: 300;
   display: block;
@@ -533,7 +534,7 @@ body #cdawrap {
   transition: color 0.2s;
 }
 
-/* line 237, ../components/sass/_navOverlay.scss */
+/* line 238, ../components/sass/_navOverlay.scss */
 .overlay ul li a:hover,
 .overlay ul li a:focus {
   color: #000;
@@ -541,7 +542,7 @@ body #cdawrap {
 }
 
 /* Effects */
-/* line 244, ../components/sass/_navOverlay.scss */
+/* line 245, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc {
   opacity: 0;
   visibility: hidden;
@@ -550,7 +551,7 @@ body #cdawrap {
   z-index: 1000;
 }
 
-/* line 252, ../components/sass/_navOverlay.scss */
+/* line 253, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.open {
   opacity: 1;
   visibility: visible;
@@ -558,13 +559,13 @@ body #cdawrap {
   transition: opacity 0.5s;
 }
 
-/* line 259, ../components/sass/_navOverlay.scss */
+/* line 260, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc nav {
   -webkit-perspective: 1200px;
   perspective: 1200px;
 }
 
-/* line 264, ../components/sass/_navOverlay.scss */
+/* line 265, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc nav ul {
   opacity: 0.4;
   -webkit-transform: translateY(-25%) rotateX(35deg);
@@ -573,7 +574,7 @@ body #cdawrap {
   transition: transform 0.5s, opacity 0.5s;
 }
 
-/* line 272, ../components/sass/_navOverlay.scss */
+/* line 273, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.open nav ul {
   opacity: 1;
   -webkit-transform: rotateX(0deg);
@@ -581,25 +582,25 @@ body #cdawrap {
   width: 100%;
 }
 
-/* line 279, ../components/sass/_navOverlay.scss */
+/* line 280, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.close nav ul {
   -webkit-transform: translateY(25%) rotateX(-35deg);
   transform: translateY(25%) rotateX(-35deg);
 }
 
 @media screen and (max-height: 30.5em) {
-  /* line 285, ../components/sass/_navOverlay.scss */
+  /* line 286, ../components/sass/_navOverlay.scss */
   .overlay nav {
     height: 70%;
     font-size: 34px;
   }
 
-  /* line 289, ../components/sass/_navOverlay.scss */
+  /* line 290, ../components/sass/_navOverlay.scss */
   .overlay ul li {
     min-height: 34px;
   }
 }
-/* line 293, ../components/sass/_navOverlay.scss */
+/* line 294, ../components/sass/_navOverlay.scss */
 .search {
   font-size: 1.5em;
   padding: 3%;
