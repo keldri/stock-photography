@@ -529,10 +529,9 @@ body #cdawrap {
   color: #333;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  height: 100%;
 }
 
-/* line 236, ../components/sass/_navOverlay.scss */
+/* line 235, ../components/sass/_navOverlay.scss */
 .overlay ul li a:hover,
 .overlay ul li a:focus {
   color: #000;
@@ -540,7 +539,7 @@ body #cdawrap {
 }
 
 /* Effects */
-/* line 243, ../components/sass/_navOverlay.scss */
+/* line 242, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc {
   opacity: 0;
   visibility: hidden;
@@ -549,7 +548,7 @@ body #cdawrap {
   z-index: 1000;
 }
 
-/* line 251, ../components/sass/_navOverlay.scss */
+/* line 250, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.open {
   opacity: 1;
   visibility: visible;
@@ -557,13 +556,13 @@ body #cdawrap {
   transition: opacity 0.5s;
 }
 
-/* line 258, ../components/sass/_navOverlay.scss */
+/* line 257, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc nav {
   -webkit-perspective: 1200px;
   perspective: 1200px;
 }
 
-/* line 263, ../components/sass/_navOverlay.scss */
+/* line 262, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc nav ul {
   opacity: 0.4;
   -webkit-transform: translateY(-25%) rotateX(35deg);
@@ -572,7 +571,7 @@ body #cdawrap {
   transition: transform 0.5s, opacity 0.5s;
 }
 
-/* line 271, ../components/sass/_navOverlay.scss */
+/* line 270, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.open nav ul {
   opacity: 1;
   -webkit-transform: rotateX(0deg);
@@ -580,24 +579,31 @@ body #cdawrap {
   width: 100%;
 }
 
-/* line 278, ../components/sass/_navOverlay.scss */
+/* line 277, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.close nav ul {
   -webkit-transform: translateY(25%) rotateX(-35deg);
   transform: translateY(25%) rotateX(-35deg);
 }
 
 @media screen and (max-height: 30.5em) {
-  /* line 284, ../components/sass/_navOverlay.scss */
+  /* line 283, ../components/sass/_navOverlay.scss */
   .overlay nav {
     height: 70%;
     font-size: 34px;
   }
 
-  /* line 288, ../components/sass/_navOverlay.scss */
+  /* line 287, ../components/sass/_navOverlay.scss */
   .overlay ul li {
     min-height: 34px;
   }
 }
+/* line 291, ../components/sass/_navOverlay.scss */
+.search {
+  font-size: 1.5em;
+  padding: 3%;
+  color: #f0f0f0;
+}
+
 /* line 1, ../components/sass/_pricing.scss */
 .background-image {
   background: url("_/images/photo-10.jpg");
@@ -3884,7 +3890,7 @@ ul li {
 }
 
 /* line 62, ../components/sass/_global.scss */
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+.z-depth-1, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -8768,48 +8774,40 @@ span.badge.new:after {
   }
 }
 
-/* line 1, ../components/sass/_navbar.scss */
-nav {
-  color: #fff;
-  background-color: #ee6e73;
-  width: 100%;
-  height: 56px;
-  line-height: 56px;
-}
-/* line 9, ../components/sass/_navbar.scss */
+/* line 4, ../components/sass/_navbar.scss */
 nav a {
   color: #fff;
 }
-/* line 11, ../components/sass/_navbar.scss */
+/* line 6, ../components/sass/_navbar.scss */
 nav .nav-wrapper {
   position: relative;
   height: 100%;
 }
-/* line 15, ../components/sass/_navbar.scss */
+/* line 10, ../components/sass/_navbar.scss */
 nav .nav-wrapper i {
   display: block;
   font-size: 2rem;
 }
 @media only screen and (min-width: 993px) {
-  /* line 22, ../components/sass/_navbar.scss */
+  /* line 17, ../components/sass/_navbar.scss */
   nav a.button-collapse {
     display: none;
   }
 }
-/* line 27, ../components/sass/_navbar.scss */
+/* line 22, ../components/sass/_navbar.scss */
 nav .button-collapse {
   float: left;
   position: relative;
   z-index: 1;
   height: 56px;
 }
-/* line 33, ../components/sass/_navbar.scss */
+/* line 28, ../components/sass/_navbar.scss */
 nav .button-collapse i {
   font-size: 2.7rem;
   height: 56px;
   line-height: 56px;
 }
-/* line 42, ../components/sass/_navbar.scss */
+/* line 37, ../components/sass/_navbar.scss */
 nav .brand-logo {
   position: absolute;
   color: #fff;
@@ -8817,7 +8815,7 @@ nav .brand-logo {
   font-size: 2.1rem;
   padding: 0;
 }
-/* line 49, ../components/sass/_navbar.scss */
+/* line 44, ../components/sass/_navbar.scss */
 nav .brand-logo.center {
   left: 50%;
   -moz-transform: translateX(-50%);
@@ -8827,7 +8825,7 @@ nav .brand-logo.center {
   transform: translateX(-50%);
 }
 @media only screen and (max-width: 992px) {
-  /* line 42, ../components/sass/_navbar.scss */
+  /* line 37, ../components/sass/_navbar.scss */
   nav .brand-logo {
     left: 50%;
     -moz-transform: translateX(-50%);
@@ -8837,62 +8835,33 @@ nav .brand-logo.center {
     transform: translateX(-50%);
   }
 }
-/* line 59, ../components/sass/_navbar.scss */
+/* line 54, ../components/sass/_navbar.scss */
 nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;
 }
-/* line 67, ../components/sass/_navbar.scss */
-nav ul {
-  margin: 0;
-}
-/* line 70, ../components/sass/_navbar.scss */
-nav ul li {
-  -webkit-transition: background-color 0.3s;
-  -moz-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  -ms-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-  float: left;
-  padding: 0;
-}
-/* line 75, ../components/sass/_navbar.scss */
-nav ul li:hover, nav ul li.active {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-/* line 79, ../components/sass/_navbar.scss */
-nav ul a {
-  font-size: 1rem;
-  color: #fff;
-  display: block;
-  padding: 0 15px;
-}
-/* line 86, ../components/sass/_navbar.scss */
-nav ul.left {
-  float: left;
-}
-/* line 92, ../components/sass/_navbar.scss */
+/* line 64, ../components/sass/_navbar.scss */
 nav .input-field {
   margin: 0;
 }
-/* line 95, ../components/sass/_navbar.scss */
+/* line 67, ../components/sass/_navbar.scss */
 nav .input-field input {
   height: 100%;
   font-size: 1.2rem;
   border: none;
   padding-left: 2rem;
 }
-/* line 101, ../components/sass/_navbar.scss */
+/* line 73, ../components/sass/_navbar.scss */
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
   border: none;
   box-shadow: none;
 }
-/* line 107, ../components/sass/_navbar.scss */
+/* line 79, ../components/sass/_navbar.scss */
 nav .input-field label {
   top: 0;
   left: 0;
 }
-/* line 111, ../components/sass/_navbar.scss */
+/* line 83, ../components/sass/_navbar.scss */
 nav .input-field label i {
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: color 0.3s;
@@ -8901,11 +8870,11 @@ nav .input-field label i {
   -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 115, ../components/sass/_navbar.scss */
+/* line 87, ../components/sass/_navbar.scss */
 nav .input-field label.active i {
   color: #fff;
 }
-/* line 116, ../components/sass/_navbar.scss */
+/* line 88, ../components/sass/_navbar.scss */
 nav .input-field label.active {
   -moz-transform: translateY(0);
   -o-transform: translateY(0);
@@ -8914,25 +8883,25 @@ nav .input-field label.active {
   transform: translateY(0);
 }
 
-/* line 126, ../components/sass/_navbar.scss */
+/* line 98, ../components/sass/_navbar.scss */
 .navbar-fixed {
   position: relative;
   height: 56px;
   z-index: 998;
 }
-/* line 131, ../components/sass/_navbar.scss */
+/* line 103, ../components/sass/_navbar.scss */
 .navbar-fixed nav {
   position: fixed;
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 136, ../components/sass/_navbar.scss */
+  /* line 108, ../components/sass/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
     line-height: 64px;
   }
 
-  /* line 140, ../components/sass/_navbar.scss */
+  /* line 112, ../components/sass/_navbar.scss */
   .navbar-fixed {
     height: 64px;
   }

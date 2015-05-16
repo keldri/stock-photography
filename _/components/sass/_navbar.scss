@@ -1,10 +1,5 @@
 nav {
-  color: #fff;
-  @extend .z-depth-1;
-  background-color: $primary-color;
-  width: 100%;
-  height: $navbar-height-mobile;
-  line-height: $navbar-height-mobile;
+ 
 
   a { color: #fff; }
 
@@ -63,30 +58,7 @@ nav {
   }
 
 
-  // Navbar Links
-  ul {
-    margin: 0;
-
-    li {
-      @include transition(background-color .3s);
-      float: left;
-      padding: 0;
-
-      &:hover, &.active {
-        background-color: rgba(0,0,0,.1);
-      }
-    }
-    a {
-      font-size: 1rem;
-      color: #fff;
-      display: block;
-      padding: 0 15px;
-    }
-
-    &.left {
-      float: left;
-    }
-  }
+  
 
   // Navbar Search Form
   .input-field {
