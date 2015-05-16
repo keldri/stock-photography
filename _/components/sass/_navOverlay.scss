@@ -38,6 +38,9 @@ header button {
   height: 59.5px!important;
   left: -13px!important;
   margin-bottom: 0!important;
+  top: -12px;
+  line-height: 2;
+  text-transform: uppercase;
 }
 .codrops-header {
 	margin: 0 auto;
@@ -104,21 +107,7 @@ section p {
 	float: right;
 }
 
-section button {
-		border: none;
-		padding: 20px 12px;
-		outline: none;
-		background: #F5F5F4;
-		margin: 0px;
-		-webkit-transition: all .1s ease-in-out;
-		-moz-transition: all .1s ease-in-out;
-		-ms-transition: all .1s ease-in-out;
-		-o-transition: all .1s ease-in-out;
-			&:hover{
-				box-shadow: none;
-				background: #494C3A;
-			}
-}
+
 
 
 .related > a {
