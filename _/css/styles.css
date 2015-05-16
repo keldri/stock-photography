@@ -239,7 +239,7 @@ header {
 
 /* line 43, ../components/sass/_layout.scss */
 .item.four {
-  max-height: 136px;
+  max-height: 132px;
   height: 100%;
   width: 48%;
   float: left;
@@ -316,27 +316,29 @@ a:hover, a:focus {
 
 /* line 34, ../components/sass/_navOverlay.scss */
 header button {
-  top: -12px;
-  right: 28px;
   box-shadow: none !important;
   border-radius: 0 !important;
+  width: 55.5px !important;
+  height: 59.5px !important;
+  left: -13px !important;
+  margin-bottom: 0 !important;
 }
 
-/* line 40, ../components/sass/_navOverlay.scss */
+/* line 42, ../components/sass/_navOverlay.scss */
 .codrops-header {
   margin: 0 auto;
   padding: 2em 0 0;
   text-align: center;
 }
 
-/* line 46, ../components/sass/_navOverlay.scss */
+/* line 48, ../components/sass/_navOverlay.scss */
 .codrops-header h1 {
   margin: 0;
   font-weight: 300;
   font-size: 2.5em;
 }
 
-/* line 52, ../components/sass/_navOverlay.scss */
+/* line 54, ../components/sass/_navOverlay.scss */
 .codrops-header h1 span {
   display: block;
   padding: 0 0 0.6em 0.1em;
@@ -345,7 +347,7 @@ header button {
 }
 
 /* To Navigation Style */
-/* line 60, ../components/sass/_navOverlay.scss */
+/* line 62, ../components/sass/_navOverlay.scss */
 .codrops-top {
   width: 100%;
   text-transform: uppercase;
@@ -355,32 +357,32 @@ header button {
   background: #fff;
 }
 
-/* line 69, ../components/sass/_navOverlay.scss */
+/* line 71, ../components/sass/_navOverlay.scss */
 .codrops-top a {
   display: inline-block;
   padding: 0 1em;
   text-decoration: none;
 }
 
-/* line 75, ../components/sass/_navOverlay.scss */
+/* line 77, ../components/sass/_navOverlay.scss */
 .codrops-top span.right {
   float: right;
 }
 
-/* line 79, ../components/sass/_navOverlay.scss */
+/* line 81, ../components/sass/_navOverlay.scss */
 .codrops-top span.right a {
   display: block;
   float: left;
 }
 
-/* line 89, ../components/sass/_navOverlay.scss */
+/* line 91, ../components/sass/_navOverlay.scss */
 .codrops-demos a:hover,
 .codrops-demos a:active,
 .codrops-demos a.current-demo {
   background: #777;
 }
 
-/* line 98, ../components/sass/_navOverlay.scss */
+/* line 100, ../components/sass/_navOverlay.scss */
 section p {
   max-width: 150px;
   margin: 0;
@@ -388,7 +390,7 @@ section p {
   float: right;
 }
 
-/* line 105, ../components/sass/_navOverlay.scss */
+/* line 107, ../components/sass/_navOverlay.scss */
 section button {
   border: none;
   padding: 20px 12px;
@@ -400,13 +402,13 @@ section button {
   -ms-transition: all .1s ease-in-out;
   -o-transition: all .1s ease-in-out;
 }
-/* line 115, ../components/sass/_navOverlay.scss */
+/* line 117, ../components/sass/_navOverlay.scss */
 section button:hover {
   box-shadow: none;
   background: #494C3A;
 }
 
-/* line 122, ../components/sass/_navOverlay.scss */
+/* line 124, ../components/sass/_navOverlay.scss */
 .related > a {
   border: 1px solid #99cc33;
   display: inline-block;
@@ -420,18 +422,18 @@ section button:hover {
   -webkit-backface-visibility: hidden;
 }
 
-/* line 135, ../components/sass/_navOverlay.scss */
+/* line 137, ../components/sass/_navOverlay.scss */
 .related a:hover {
   border-color: #82b222;
   color: #82b222;
 }
 
-/* line 140, ../components/sass/_navOverlay.scss */
+/* line 142, ../components/sass/_navOverlay.scss */
 .related a img {
   max-width: 100%;
 }
 
-/* line 144, ../components/sass/_navOverlay.scss */
+/* line 146, ../components/sass/_navOverlay.scss */
 .related a h3 {
   margin: 0;
   padding: 0.5em 0 0.3em;
@@ -441,32 +443,32 @@ section button:hover {
   font-weight: 400;
 }
 
-/* line 153, ../components/sass/_navOverlay.scss */
+/* line 155, ../components/sass/_navOverlay.scss */
 body #cdawrap {
   top: auto;
   bottom: 15px;
 }
 
 @media screen and (max-width: 34em) {
-  /* line 159, ../components/sass/_navOverlay.scss */
+  /* line 161, ../components/sass/_navOverlay.scss */
   .overlay {
     font-size: 90%;
   }
 
-  /* line 162, ../components/sass/_navOverlay.scss */
+  /* line 164, ../components/sass/_navOverlay.scss */
   .overlay .overlay-close {
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
   }
 }
 @media screen and (max-width: 25em) {
-  /* line 170, ../components/sass/_navOverlay.scss */
+  /* line 172, ../components/sass/_navOverlay.scss */
   .codrops-icon span {
     display: none;
   }
 }
 /* Overlay style */
-/* line 176, ../components/sass/_navOverlay.scss */
+/* line 178, ../components/sass/_navOverlay.scss */
 .overlay {
   position: fixed;
   width: 100%;
@@ -477,7 +479,7 @@ body #cdawrap {
 }
 
 /* Overlay closing cross */
-/* line 186, ../components/sass/_navOverlay.scss */
+/* line 188, ../components/sass/_navOverlay.scss */
 .overlay .overlay-close {
   width: 80px;
   height: 80px;
@@ -493,7 +495,7 @@ body #cdawrap {
 }
 
 /* Menu style */
-/* line 201, ../components/sass/_navOverlay.scss */
+/* line 203, ../components/sass/_navOverlay.scss */
 .overlay nav {
   text-align: center;
   position: relative;
@@ -504,7 +506,7 @@ body #cdawrap {
   transform: translateY(-50%);
 }
 
-/* line 211, ../components/sass/_navOverlay.scss */
+/* line 213, ../components/sass/_navOverlay.scss */
 .overlay ul {
   list-style: none;
   padding: 0;
@@ -514,7 +516,7 @@ body #cdawrap {
   position: relative;
 }
 
-/* line 220, ../components/sass/_navOverlay.scss */
+/* line 222, ../components/sass/_navOverlay.scss */
 .overlay ul li {
   display: block;
   height: 20%;
@@ -522,7 +524,7 @@ body #cdawrap {
   min-height: 54px;
 }
 
-/* line 227, ../components/sass/_navOverlay.scss */
+/* line 229, ../components/sass/_navOverlay.scss */
 .overlay ul li a {
   font-weight: 300;
   display: block;
@@ -531,7 +533,7 @@ body #cdawrap {
   transition: color 0.2s;
 }
 
-/* line 235, ../components/sass/_navOverlay.scss */
+/* line 237, ../components/sass/_navOverlay.scss */
 .overlay ul li a:hover,
 .overlay ul li a:focus {
   color: #000;
@@ -539,7 +541,7 @@ body #cdawrap {
 }
 
 /* Effects */
-/* line 242, ../components/sass/_navOverlay.scss */
+/* line 244, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc {
   opacity: 0;
   visibility: hidden;
@@ -548,7 +550,7 @@ body #cdawrap {
   z-index: 1000;
 }
 
-/* line 250, ../components/sass/_navOverlay.scss */
+/* line 252, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.open {
   opacity: 1;
   visibility: visible;
@@ -556,13 +558,13 @@ body #cdawrap {
   transition: opacity 0.5s;
 }
 
-/* line 257, ../components/sass/_navOverlay.scss */
+/* line 259, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc nav {
   -webkit-perspective: 1200px;
   perspective: 1200px;
 }
 
-/* line 262, ../components/sass/_navOverlay.scss */
+/* line 264, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc nav ul {
   opacity: 0.4;
   -webkit-transform: translateY(-25%) rotateX(35deg);
@@ -571,7 +573,7 @@ body #cdawrap {
   transition: transform 0.5s, opacity 0.5s;
 }
 
-/* line 270, ../components/sass/_navOverlay.scss */
+/* line 272, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.open nav ul {
   opacity: 1;
   -webkit-transform: rotateX(0deg);
@@ -579,25 +581,25 @@ body #cdawrap {
   width: 100%;
 }
 
-/* line 277, ../components/sass/_navOverlay.scss */
+/* line 279, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.close nav ul {
   -webkit-transform: translateY(25%) rotateX(-35deg);
   transform: translateY(25%) rotateX(-35deg);
 }
 
 @media screen and (max-height: 30.5em) {
-  /* line 283, ../components/sass/_navOverlay.scss */
+  /* line 285, ../components/sass/_navOverlay.scss */
   .overlay nav {
     height: 70%;
     font-size: 34px;
   }
 
-  /* line 287, ../components/sass/_navOverlay.scss */
+  /* line 289, ../components/sass/_navOverlay.scss */
   .overlay ul li {
     min-height: 34px;
   }
 }
-/* line 291, ../components/sass/_navOverlay.scss */
+/* line 293, ../components/sass/_navOverlay.scss */
 .search {
   font-size: 1.5em;
   padding: 3%;
