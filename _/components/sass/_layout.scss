@@ -62,10 +62,4 @@ header{
 	height:95%;
 	margin-top: 6%;
 	height: 117px !Important;
-		span{
-			display:none;
-			@include respond-to(small-screens)  { 
-				display:inline;
-			}	
-		}
 }	

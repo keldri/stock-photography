@@ -31,7 +31,12 @@ a {
 a:hover, a:focus {
 	color: #373e18;
 }
-
+header button {
+  top: -12px;
+  right: 28px;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
 .codrops-header {
 	margin: 0 auto;
 	padding: 2em 0 0;
@@ -78,18 +83,8 @@ a:hover, a:focus {
 
 
 
-.codrops-demos a,
-section button {
-	display: inline-block;
-	background: #a9a9a9;
-	color: #000;
-	font-weight: 400;
-	padding: 10px 20px;
-	margin: 5px;
-	text-transform: uppercase;
-	border-radius: 2px;
-	letter-spacing: 1px;
-}
+
+
 
 .codrops-demos a:hover,
 .codrops-demos a:active,

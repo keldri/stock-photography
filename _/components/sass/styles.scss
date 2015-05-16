@@ -12,44 +12,44 @@
 @import "pricing";
 
 
-/*Materialize*/
+/**/
 
 // Mixins
-@import "components/prefixer";
-@import "components/mixins";
-@import "components/color";
+@import "prefixer";
+@import "mixins";
+@import "color";
 
 // Variables;
-@import "components/variables";
+@import "variables";
 
 // Reset
-@import "components/normalize";
+@import "normalize";
 
 // components
-@import "components/global";
-@import "components/icons-material-design";
-@import "components/grid";
-@import "components/navbar";
-@import "components/roboto";
-@import "components/typography";
-@import "components/cards";
-@import "components/toast";
-@import "components/tabs";
-@import "components/tooltip";
-@import "components/buttons";
-@import "components/dropdown";
-@import "components/waves";
-@import "components/modal";
-@import "components/collapsible";
-@import "components/materialbox";
-@import "components/form";
-@import "components/table_of_contents";
-@import "components/sideNav";
-@import "components/preloader";
-@import "components/slider";
-@import "components/date_picker/default.scss";
-@import "components/date_picker/default.date.scss";
-@import "components/date_picker/default.time.scss";
+@import "global";
+@import "icons-material-design";
+@import "grid";
+@import "navbar";
+@import "roboto";
+@import "typography";
+@import "cards";
+@import "toast";
+@import "tabs";
+@import "tooltip";
+@import "buttons";
+@import "dropdown";
+@import "waves";
+@import "modal";
+@import "collapsible";
+@import "materialbox";
+@import "form";
+@import "table_of_contents";
+@import "sideNav";
+@import "preloader";
+@import "slider";
+@import "default.scss";
+@import "default.date.scss";
+@import "default.time.scss";
 
 
 
