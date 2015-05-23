@@ -96,88 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 4%;
 }
 
-/* line 28, ../components/sass/_base.scss */
-h1 {
-  font-size: 3em;
-}
-
 /* line 31, ../components/sass/_base.scss */
-h2 {
-  font-size: 2.5em;
-  font-weight: 300;
-  line-height: 0.9;
-  padding: 0;
-  line-height: 150%;
-  color: #101F46;
-  text-align: left;
-  font-family: calibre_regular,sans-serif;
-  text-transform: uppercase;
-}
-
-/* line 45, ../components/sass/_base.scss */
-h3 {
-  font-weight: 300;
-  line-height: 18px;
-  font-size: 1.6em;
-  padding: 0;
-  text-align: center;
-}
-@media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 45, ../components/sass/_base.scss */
-  h3 {
-    font-size: 2.6em;
-    line-height: 1.2;
-  }
-}
-
-/* line 57, ../components/sass/_base.scss */
-h4 {
-  font-size: 1.3em;
-  line-height: 100%;
-  margin: 0;
-  font-weight: 600;
-  text-align: center;
-}
-
-/* line 63, ../components/sass/_base.scss */
-a {
-  text-decoration: underline;
-  font-family: 'Lato', sans-serif;
-}
-/* line 66, ../components/sass/_base.scss */
-a:hover {
-  color: #AF8812;
-}
-
-/* line 70, ../components/sass/_base.scss */
-hr {
-  width: 50%;
-}
-
-/* line 73, ../components/sass/_base.scss */
-article {
-  margin-bottom: 13%;
-}
-
-/* line 76, ../components/sass/_base.scss */
-p {
-  font-size: 1.8em;
-  padding: 4% 6%;
-  text-align: left;
-  margin: 0 0 5%;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  opacity: 0.8;
-  color: #0A2933;
-}
-@media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 76, ../components/sass/_base.scss */
-  p {
-    margin-bottom: 2%;
-  }
-}
-
-/* line 91, ../components/sass/_base.scss */
 .img-responsive {
   width: 100%;
 }
@@ -203,10 +122,10 @@ header {
 
 /* line 16, ../components/sass/_layout.scss */
 .item {
-  padding: 6% 0%;
+  margin: 6% 0%;
   overflow: hidden;
   width: 100%;
-  margin: 0;
+  padding: 0;
 }
 /* line 21, ../components/sass/_layout.scss */
 .item img {
@@ -272,6 +191,17 @@ header {
   height: 95%;
   margin-top: 6%;
   height: 117px !Important;
+}
+
+/* line 69, ../components/sass/_layout.scss */
+.text-overlay {
+  padding: 15px 17px 0px;
+  height: 270px;
+  position: absolute;
+  width: 80%;
+  z-index: 1000;
+  top: 63px;
+  margin: 0 5%;
 }
 
 @font-face {
@@ -8970,9 +8900,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 /* line 30, ../components/sass/_typography.scss */
 h1 {
-  font-size: 4.2rem;
-  line-height: 4.62rem;
-  margin: 2.1rem 0 1.68rem 0;
+  font-size: 2.2rem;
 }
 
 /* line 31, ../components/sass/_typography.scss */
