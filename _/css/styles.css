@@ -9715,6 +9715,7 @@ button.btn-floating {
   color: #fff;
   font-size: 1rem;
   background-color: #F44336;
+  border-radius: 0;
 }
 
 /* line 1, ../components/sass/_dropdown.scss */
