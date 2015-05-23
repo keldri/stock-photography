@@ -96,11 +96,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 4%;
 }
 
-/* line 31, ../components/sass/_base.scss */
-.img-responsive {
-  width: 100%;
-}
-
 /* line 2, ../components/sass/_layout.scss */
 .body-wrapper {
   position: relative;
@@ -195,13 +190,25 @@ header {
 
 /* line 69, ../components/sass/_layout.scss */
 .text-overlay {
-  padding: 15px 17px 0px;
+  padding: 50px 0px 0px;
   height: 270px;
   position: absolute;
   width: 80%;
   z-index: 1000;
   top: 63px;
   margin: 0 5%;
+  color: #fff;
+}
+/* line 78, ../components/sass/_layout.scss */
+.text-overlay h1 {
+  color: #F44336;
+  line-height: 1.2;
+  font-weight: 400;
+}
+/* line 83, ../components/sass/_layout.scss */
+.text-overlay p {
+  text-shadow: 4px 4px 6px rgba(150, 150, 150, 0.9);
+  line-height: 1.2;
 }
 
 @font-face {
@@ -8900,7 +8907,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 /* line 30, ../components/sass/_typography.scss */
 h1 {
-  font-size: 2.2rem;
+  font-size: 1.7rem;
 }
 
 /* line 31, ../components/sass/_typography.scss */
@@ -9703,10 +9710,11 @@ button.btn-floating {
 
 /* line 153, ../components/sass/_buttons.scss */
 .main-content button {
-  border: solid 1px #000;
   text-align: center;
   padding: 0 1rem;
-  margin: 14% 23%;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #F44336;
 }
 
 /* line 1, ../components/sass/_dropdown.scss */
