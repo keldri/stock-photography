@@ -121,8 +121,11 @@ header {
   overflow: hidden;
   width: 100%;
   padding: 0;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-/* line 21, ../components/sass/_layout.scss */
+/* line 22, ../components/sass/_layout.scss */
 .item img {
   position: relative;
   max-height: 100%;
@@ -130,7 +133,7 @@ header {
   min-height: 139px;
 }
 @media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 21, ../components/sass/_layout.scss */
+  /* line 22, ../components/sass/_layout.scss */
   .item img {
     top: 50%;
     left: 0;
@@ -139,25 +142,25 @@ header {
   }
 }
 
-/* line 34, ../components/sass/_layout.scss */
+/* line 35, ../components/sass/_layout.scss */
 .item.one {
   height: 100%;
   max-height: 300px;
 }
 @media only screen and (min-width: 600px) {
-  /* line 34, ../components/sass/_layout.scss */
+  /* line 35, ../components/sass/_layout.scss */
   .item.one {
     max-height: 400px;
   }
 }
 
-/* line 41, ../components/sass/_layout.scss */
+/* line 42, ../components/sass/_layout.scss */
 .item.three {
   max-height: 100px;
   height: 100%;
 }
 
-/* line 46, ../components/sass/_layout.scss */
+/* line 47, ../components/sass/_layout.scss */
 .item.four {
   max-height: 132px;
   height: 100%;
@@ -165,13 +168,13 @@ header {
   float: left;
 }
 
-/* line 52, ../components/sass/_layout.scss */
+/* line 53, ../components/sass/_layout.scss */
 .item.five {
   max-height: 250px;
   height: 100%;
 }
 
-/* line 56, ../components/sass/_layout.scss */
+/* line 57, ../components/sass/_layout.scss */
 .item.six {
   position: absolute;
   z-index: 1;
@@ -180,7 +183,7 @@ header {
   margin-top: 7%;
 }
 
-/* line 63, ../components/sass/_layout.scss */
+/* line 64, ../components/sass/_layout.scss */
 .colorblock {
   background-color: beige;
   height: 95%;
@@ -188,7 +191,7 @@ header {
   height: 117px !Important;
 }
 
-/* line 69, ../components/sass/_layout.scss */
+/* line 70, ../components/sass/_layout.scss */
 .text-overlay {
   padding: 50px 0px 0px;
   height: 270px;
@@ -199,13 +202,13 @@ header {
   margin: 0 5%;
   color: #fff;
 }
-/* line 78, ../components/sass/_layout.scss */
+/* line 79, ../components/sass/_layout.scss */
 .text-overlay h1 {
   color: #F44336;
   line-height: 1.2;
   font-weight: 400;
 }
-/* line 83, ../components/sass/_layout.scss */
+/* line 84, ../components/sass/_layout.scss */
 .text-overlay p {
   text-shadow: 4px 4px 6px rgba(150, 150, 150, 0.9);
   line-height: 1.2;
