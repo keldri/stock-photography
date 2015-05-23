@@ -195,10 +195,10 @@ header {
 
 /* line 9, ../components/sass/_layout.scss */
 .main-content {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  padding: 5%;
+  padding: 0 5% 5%;
 }
 
 /* line 16, ../components/sass/_layout.scss */
@@ -228,16 +228,22 @@ header {
 /* line 34, ../components/sass/_layout.scss */
 .item.one {
   height: 100%;
-  max-height: 200px;
+  max-height: 300px;
+}
+@media only screen and (min-width: 600px) {
+  /* line 34, ../components/sass/_layout.scss */
+  .item.one {
+    max-height: 400px;
+  }
 }
 
-/* line 38, ../components/sass/_layout.scss */
+/* line 41, ../components/sass/_layout.scss */
 .item.three {
   max-height: 100px;
   height: 100%;
 }
 
-/* line 43, ../components/sass/_layout.scss */
+/* line 46, ../components/sass/_layout.scss */
 .item.four {
   max-height: 132px;
   height: 100%;
@@ -245,13 +251,13 @@ header {
   float: left;
 }
 
-/* line 49, ../components/sass/_layout.scss */
+/* line 52, ../components/sass/_layout.scss */
 .item.five {
   max-height: 250px;
   height: 100%;
 }
 
-/* line 53, ../components/sass/_layout.scss */
+/* line 56, ../components/sass/_layout.scss */
 .item.six {
   position: absolute;
   z-index: 1;
@@ -260,7 +266,7 @@ header {
   margin-top: 7%;
 }
 
-/* line 60, ../components/sass/_layout.scss */
+/* line 63, ../components/sass/_layout.scss */
 .colorblock {
   background-color: beige;
   height: 95%;
@@ -386,14 +392,15 @@ header button {
 }
 
 /* line 103, ../components/sass/_navOverlay.scss */
-section p {
+.menu {
   max-width: 150px;
   margin: 0;
   padding: 0;
   float: right;
+  max-height: 53px;
 }
 
-/* line 113, ../components/sass/_navOverlay.scss */
+/* line 114, ../components/sass/_navOverlay.scss */
 .related > a {
   border: 1px solid #99cc33;
   display: inline-block;
@@ -407,18 +414,18 @@ section p {
   -webkit-backface-visibility: hidden;
 }
 
-/* line 126, ../components/sass/_navOverlay.scss */
+/* line 127, ../components/sass/_navOverlay.scss */
 .related a:hover {
   border-color: #82b222;
   color: #82b222;
 }
 
-/* line 131, ../components/sass/_navOverlay.scss */
+/* line 132, ../components/sass/_navOverlay.scss */
 .related a img {
   max-width: 100%;
 }
 
-/* line 135, ../components/sass/_navOverlay.scss */
+/* line 136, ../components/sass/_navOverlay.scss */
 .related a h3 {
   margin: 0;
   padding: 0.5em 0 0.3em;
@@ -428,32 +435,32 @@ section p {
   font-weight: 400;
 }
 
-/* line 144, ../components/sass/_navOverlay.scss */
+/* line 145, ../components/sass/_navOverlay.scss */
 body #cdawrap {
   top: auto;
   bottom: 15px;
 }
 
 @media screen and (max-width: 34em) {
-  /* line 150, ../components/sass/_navOverlay.scss */
+  /* line 151, ../components/sass/_navOverlay.scss */
   .overlay {
     font-size: 90%;
   }
 
-  /* line 153, ../components/sass/_navOverlay.scss */
+  /* line 154, ../components/sass/_navOverlay.scss */
   .overlay .overlay-close {
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
   }
 }
 @media screen and (max-width: 25em) {
-  /* line 161, ../components/sass/_navOverlay.scss */
+  /* line 162, ../components/sass/_navOverlay.scss */
   .codrops-icon span {
     display: none;
   }
 }
 /* Overlay style */
-/* line 167, ../components/sass/_navOverlay.scss */
+/* line 168, ../components/sass/_navOverlay.scss */
 .overlay {
   position: fixed;
   width: 100%;
@@ -464,7 +471,7 @@ body #cdawrap {
 }
 
 /* Overlay closing cross */
-/* line 177, ../components/sass/_navOverlay.scss */
+/* line 178, ../components/sass/_navOverlay.scss */
 .overlay .overlay-close {
   min-width: 100px;
   min-height: 118px;
@@ -481,7 +488,7 @@ body #cdawrap {
 }
 
 /* Menu style */
-/* line 193, ../components/sass/_navOverlay.scss */
+/* line 194, ../components/sass/_navOverlay.scss */
 .overlay nav {
   text-align: center;
   position: relative;
@@ -492,7 +499,7 @@ body #cdawrap {
   transform: translateY(-50%);
 }
 
-/* line 203, ../components/sass/_navOverlay.scss */
+/* line 204, ../components/sass/_navOverlay.scss */
 .overlay ul {
   list-style: none;
   padding: 0;
@@ -502,7 +509,7 @@ body #cdawrap {
   position: relative;
 }
 
-/* line 212, ../components/sass/_navOverlay.scss */
+/* line 213, ../components/sass/_navOverlay.scss */
 .overlay ul li {
   display: block;
   height: 20%;
@@ -510,7 +517,7 @@ body #cdawrap {
   min-height: 54px;
 }
 
-/* line 219, ../components/sass/_navOverlay.scss */
+/* line 220, ../components/sass/_navOverlay.scss */
 .overlay ul li a {
   font-weight: 300;
   display: block;
@@ -519,7 +526,7 @@ body #cdawrap {
   transition: color 0.2s;
 }
 
-/* line 227, ../components/sass/_navOverlay.scss */
+/* line 228, ../components/sass/_navOverlay.scss */
 .overlay ul li a:hover,
 .overlay ul li a:focus {
   color: #000;
@@ -527,7 +534,7 @@ body #cdawrap {
 }
 
 /* Effects */
-/* line 234, ../components/sass/_navOverlay.scss */
+/* line 235, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc {
   opacity: 0;
   visibility: hidden;
@@ -536,7 +543,7 @@ body #cdawrap {
   z-index: 1000;
 }
 
-/* line 242, ../components/sass/_navOverlay.scss */
+/* line 243, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.open {
   opacity: 1;
   visibility: visible;
@@ -544,13 +551,13 @@ body #cdawrap {
   transition: opacity 0.5s;
 }
 
-/* line 249, ../components/sass/_navOverlay.scss */
+/* line 250, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc nav {
   -webkit-perspective: 1200px;
   perspective: 1200px;
 }
 
-/* line 254, ../components/sass/_navOverlay.scss */
+/* line 255, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc nav ul {
   opacity: 0.4;
   -webkit-transform: translateY(-25%) rotateX(35deg);
@@ -559,7 +566,7 @@ body #cdawrap {
   transition: transform 0.5s, opacity 0.5s;
 }
 
-/* line 262, ../components/sass/_navOverlay.scss */
+/* line 263, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.open nav ul {
   opacity: 1;
   -webkit-transform: rotateX(0deg);
@@ -567,25 +574,25 @@ body #cdawrap {
   width: 100%;
 }
 
-/* line 269, ../components/sass/_navOverlay.scss */
+/* line 270, ../components/sass/_navOverlay.scss */
 .overlay-hugeinc.close nav ul {
   -webkit-transform: translateY(25%) rotateX(-35deg);
   transform: translateY(25%) rotateX(-35deg);
 }
 
 @media screen and (max-height: 30.5em) {
-  /* line 275, ../components/sass/_navOverlay.scss */
+  /* line 276, ../components/sass/_navOverlay.scss */
   .overlay nav {
     height: 70%;
     font-size: 34px;
   }
 
-  /* line 279, ../components/sass/_navOverlay.scss */
+  /* line 280, ../components/sass/_navOverlay.scss */
   .overlay ul li {
     min-height: 34px;
   }
 }
-/* line 283, ../components/sass/_navOverlay.scss */
+/* line 284, ../components/sass/_navOverlay.scss */
 .search {
   position: absolute;
   font-size: 1.9em;
