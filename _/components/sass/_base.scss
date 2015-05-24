@@ -3,20 +3,7 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway:900,800,700');
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700');
 
-body{
-	font-size:10px;
-	color:#0A2933;
-	background-color:#f9f9f9;
-}
 
-.site-wrapper {
-background-color: #fff;
-overflow: hidden;
-}
-
-.container-fluid {
-padding-top: 12%;
-}
 
 #{headings()}{
 	font-family:'Lato', sans-serif;
