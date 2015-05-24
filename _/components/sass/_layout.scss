@@ -3,14 +3,18 @@
 	position:relative;
 }
 header{
-	  height: 53px;
-  background-color: #E4E0DE;
+	height: 53px;
+	background-color: rgba(25, 25, 25, 0.8);
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .main-content{
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 0 5% 5%;
+	padding: 16% 5% 0 5%
+
 }
 
 .item{

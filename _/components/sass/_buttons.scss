@@ -164,3 +164,14 @@ button.btn-floating {
   margin: 33% auto;
 }
 
+header button {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  width: 55.5px!important;
+  height: 59px!important;
+  left: -13px!important;
+  margin-bottom: 0!important;
+  top: -12px;
+  line-height: 2;
+  text-transform: uppercase;
+}
