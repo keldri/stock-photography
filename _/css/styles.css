@@ -170,7 +170,7 @@ header {
 
 /* line 53, ../components/sass/_layout.scss */
 .item.five {
-  max-height: 250px;
+  max-height: 190px;
   height: 100%;
 }
 
@@ -210,6 +210,24 @@ header {
 .text-overlay p {
   text-shadow: 4px 4px 6px rgba(150, 150, 150, 0.9);
   line-height: 1.2;
+}
+
+/* line 88, ../components/sass/_layout.scss */
+footer {
+  color: #F44336;
+}
+/* line 90, ../components/sass/_layout.scss */
+footer a {
+  color: #F44336 !important;
+  text-transform: uppercase;
+}
+/* line 93, ../components/sass/_layout.scss */
+footer a:hover {
+  color: #0A2933;
+}
+/* line 97, ../components/sass/_layout.scss */
+footer h5 {
+  color: #F44336 !important;
 }
 
 @font-face {
@@ -4086,7 +4104,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #ee6e73;
+  background-color: #E4E0DE;
 }
 /* line 280, ../components/sass/_global.scss */
 footer.page-footer .footer-copyright {
